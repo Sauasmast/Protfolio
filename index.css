@@ -1,0 +1,98 @@
+#logo{
+      height: 2.5em;
+    width: 11em;
+    position: relative;
+    top: -11px;
+    left: -83px;
+}
+
+.divider-vertical {
+height: 50px;
+margin: 0 9px;
+border-left: 1px solid #F2F2F2;
+border-right: 1px solid #FFF;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.cycle-slideshow{
+  width:100%;
+  display:block;
+  position:relative;
+}
+
+#slideshow{
+  position:relative;
+  top:54px;
+}
+
+.cycle-prev, .cycle-next{
+  font-size: 300%;
+  color: white;
+  display:block;
+  position: absolute;
+  top:50%;
+   margin-top: -16px;
+  z-index:999;
+  cursor:pointer;
+}
+
+.cycle-prev{
+  left:10%;
+}
+
+.cycle-next{
+  right:10%;
+} 
+
+.cycle-pager{
+  width:100%;
+  text-align:center;
+  display:block;
+  position:absolute;
+  bottom:171px;
+  z-index:999;
+  cursor:pointer;
+}
+
+.cycle-pager span{
+  text-indent: 100%;
+  white-space: nowrap;
+  width:20px;
+  height:20px;
+  display:inline-block;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.cycle-pager .cycle-pager-active{
+  background-color: white;
+}
+
+#aboutMe{
+background-color:black;
+  z-index:2000;
+  position: relative;
+    top: 1em;
+    height: 6em;
+}
+
+#topic{
+  color:white;
+  font-size: 2em;
+  font-family:"Impact, Charcoal, sans-serif";
+}
+
+#paragraph{
+  text-align: justify;
+  font-family: cursive;
+  font-size: 1.3em;
+  background-color: black;
+  color:white;
+  
+}
+
+
